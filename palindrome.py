@@ -10,7 +10,7 @@ n = 12321
 temp = n
 rev = 0
 
-while n > 0:
+while n != 0:
     ld = n % 10          # last digit
     rev = rev * 10 + ld  # build reverse number
     n = n // 10

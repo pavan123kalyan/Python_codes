@@ -17,7 +17,7 @@ res=[
 
 for i in range(len(p)):
     for j in range(len(q[0])):
-        res[i][j]+=p[i][j]*q[i][j]
+        res[i][j]+=p[i][j]+q[i][j]
 for r in res:
     print(r)
 

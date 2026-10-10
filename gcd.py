@@ -12,6 +12,7 @@ print("Gcd is",gcd)
 #gcd(10,2)=gcd(8,2)=gcd(6,2)=gcd(4,2)=gcd(2,2)=gcd(0,2)
 
 #Subtraction method:
+#20,40
 def gcd(a, b):
     while a != b:
         if a > b:
